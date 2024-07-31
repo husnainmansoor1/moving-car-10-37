@@ -1,0 +1,33 @@
+img{
+    width: 250px;
+}
+hr{
+    width: 100%;
+   border: 70px solid rgb(87, 80, 80) !important;
+   position: absolute;
+   z-index: -1;
+   margin-top: -150px;
+}
+.animate1{
+    animation: car1 4s  infinite ;
+}
+
+.animate2{
+    animation: car2 3s infinite ;
+}
+@keyframes car1{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(1400px);
+    }
+    }
+@keyframes car2{
+from{
+    transform: translateX(0px);
+}
+to{
+    transform: translateX(1400px);
+}
+}
