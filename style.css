@@ -1,6 +1,15 @@
-img{
-    width: 250px;
+*{
+    margin: 0;
+    padding: 0;
 }
+body{
+    /* mask-image: -moz-linear-gradient(2px, #fff); */
+    background-image:url('roadimg.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center ;
+}
+
 hr{
     width: 100%;
    border: 70px solid rgb(87, 80, 80) !important;
@@ -9,25 +18,58 @@ hr{
    margin-top: -150px;
 }
 .animate1{
+    
     animation: car1 4s  infinite ;
+    width: 150px;
+    margin-top: 220px;
+    position: absolute;
+
+
+
 }
 
 .animate2{
     animation: car2 3s infinite ;
+    width: 150px;
+    margin-top: 300px;
+    position: relative;
+
+    
+
+}
+.animate3{
+    /* float: left; */
+    animation: car3 6s infinite ;
+    width: 150px;
+    position: relative;
+
+    
+
 }
 @keyframes car1{
     from{
         transform: translateX(0px);
     }
     to{
-        transform: translateX(1400px);
+        transform: translateX(1350px);
     }
     }
+
 @keyframes car2{
 from{
     transform: translateX(0px);
 }
 to{
-    transform: translateX(1400px);
+    transform: translateX(1350px);
 }
 }
+
+
+@keyframes car3{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(1350px);
+    }
+    }
